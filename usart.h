@@ -12,6 +12,7 @@ void USART_init(void);
 unsigned char USART_receive(void);
 void USART_send( unsigned char dataa);
 void USART_putstring(char* StringPtr);
+void USART_Flush(void);
 
 
 #endif 
